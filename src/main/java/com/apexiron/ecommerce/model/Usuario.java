@@ -37,6 +37,8 @@ public class Usuario {
   @Column(name = "isAdmin", nullable = false)
   private Boolean isAdmin;
 
+  public Usuario() {}
+
   public Usuario(
       String nombre, String apellido, String correo, String contrasena,
       String telefono, String direccion, Boolean isAdmin) {
